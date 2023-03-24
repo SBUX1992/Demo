@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<style>
+    #wrap {
+        margin: 50px;
+    }
+
+    #wrap>main>div>form>table>tbody>tr {}
+
+    #wrap>main>div>form>table>tbody>tr>th {
+        width: 100px;
+        text-align: center;
+
+    }
+
+    #wrap>main>div>form>table>tbody>tr>td {
+        width: 500px;
+        height: 50px;
+        position: relative;
+    }
+
+    #wrap>main>div>form>table>tbody>tr>td>input {
+        display: block;
+        margin: 5px 5px 5px 10px;
+        padding: 8px;
+    }
+
+    #wrap>main>div>form>table>tbody>tr>td>button {
+        position: absolute;
+        padding: 5px;
+        margin: 5px 5px 5px 5px;
+        left: 200px;
+
+
+    }
+</style>
+
+<body>
+    <div id="wrap">
+        <main>
+            <div>
+                <form action="">
+                    <table border="1">
+                        <tr>
+                            <th>아이디</th>
+                            <td><input type="text" placeholder="아이디"></td>
+                        </tr>
+                        <tr>
+                            <th>비밀번호</th>
+                            <td><input type="password" placeholder="비밀번호"></td>
+                        </tr>
+                        <tr>
+                            <th>주소</th>
+                            <td>
+                                <button type="button">우편번호 찾기</button>
+                                <input type="text" placeholder="우편번호">
+                                <input type="text" placeholder="주소1">
+                                <input type="text" placeholder="주소2">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
