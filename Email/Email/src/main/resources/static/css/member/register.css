@@ -1,0 +1,30 @@
+#wrap {
+        margin: 50px;
+    }
+
+    #wrap>main>div>form>table>tbody>tr {}
+
+    #wrap>main>div>form>table>tbody>tr>th {
+        width: 100px;
+        text-align: center;
+
+    }
+
+    #wrap>main>div>form>table>tbody>tr>td {
+        width: 500px;
+        height: 50px;
+        position: relative;
+    }
+
+    #wrap>main>div>form>table>tbody>tr>td>input {
+        display: block;
+        margin: 5px 5px 5px 10px;
+        padding: 8px;
+    }
+
+    #wrap>main>div>form>table>tbody>tr>td>button {
+        position: absolute;
+        padding: 5px;
+        margin: 5px 5px 5px 5px;
+        left: 200px;
+    }
